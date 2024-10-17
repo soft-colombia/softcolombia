@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+.menu-navegacion {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos a lo largo del contenedor */
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+.menu-navegacion li {
+    text-align: center;
+    flex-grow: 1; /* Para que cada elemento ocupe el mismo espacio */
+}
+.menu-navegacion a {
+    color: red;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.menu-navegacion a:hover {
+    background-color: lightblue;
+}
+
+form {
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+input[type="text"], input[type="email"], input[type="phone"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: blue;
+}
